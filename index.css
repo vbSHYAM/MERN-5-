@@ -1,0 +1,9 @@
+@import url("style1.css");  
+  
+  
+  p{
+    font-size: xx-large;
+   /* color: crimson !important;                      to overwrite and make this color important */
+text-shadow: 2px 2px red !important;
+
+}

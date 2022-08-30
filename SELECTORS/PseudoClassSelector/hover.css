@@ -1,0 +1,40 @@
+/* Example 1 */
+
+/* div{
+    color: aqua;
+    background: gold;
+    width: 300px;
+    height: 200px;
+    padding-left: 100px;
+}
+
+div:hover{
+    color: darkblue;
+    background-color: indianred;
+    border-radius: 30%;
+    text-decoration: underline;
+    text-transform: uppercase;
+} */
+
+
+
+/* Example 2 */
+
+
+p{
+    color: brown;
+    background-color: darkgoldenrod;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    display: none;
+}
+
+div:hover p{
+    display: block;
+    background-color: darkred;
+    border-radius: 35%;
+    text-transform: uppercase;
+    text-decoration:underline;
+    color: aqua;
+   }

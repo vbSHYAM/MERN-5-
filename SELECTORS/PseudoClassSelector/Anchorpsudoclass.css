@@ -1,0 +1,17 @@
+
+/* Anchor psudo class selector */
+
+/* link (unvisited) */
+a:link{
+    color: maroon;
+}
+
+/* visited */
+a:visited{
+    color: lawngreen;
+}
+
+/* active */
+a:active{
+    color: deeppink;
+}

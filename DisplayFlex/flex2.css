@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/* NAV BAR */
+#sec{
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+    border-bottom: 2px solid black;
+}
+
+
+#sec>article{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    flex-basis: 20%;
+}
+
+.menu{
+    flex-basis: 40%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu ul li{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.menu ul li:hover {
+    background-color:darkorange;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.authentication{
+flex-basis: 40%;
+}
+
+
+.authentication ul{
+        justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+}
+
+.authentication ul li{
+    border: 1px solid black;
+        border-radius: 5px;
+}
+
+.authentication ul li:hover{
+    background-color: chartreuse;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+
+
+/* Intro page */
+
+#intro{
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+}
+
+#intro>article{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    height: inherit;
+}
+
+
+.card1{
+    margin-top: 30px;
+    height: 350px;
+    width: 400px;
+    background-color: azure;
+    position:relative;
+    box-shadow: -0.5px 1px 6px 11px black;
+}
+
+.card1 > img{
+    position: absolute;
+    left: 50px;
+}
+
+.card1 > h2{
+    position: absolute;
+    top: 210px;
+    left: 160px;
+}
+
+.card1>p{
+position: absolute;
+    top: 250px;
+    left: 4px;
+    /* text-align: justify; */
+    text-align: center;
+}
+
+
+
+
+.card2 {
+    margin-top: 30px;
+    height: 350px;
+    width: 400px;
+    background-color: azure;
+    position: relative;
+    box-shadow: -0.5px 1px 6px 11px black;
+}
+
+
+.card2>img {
+    position: absolute;
+    left: 50px;
+}
+
+.card2>h2 {
+    position: absolute;
+    top: 210px;
+    left: 160px;
+}
+
+.card2>p {
+    position: absolute;
+    top: 250px;
+    left: 4px;
+    /* text-align: justify; */
+    text-align: center;
+}
+
+
+
+
+.card3 {
+    margin-top: 30px;
+    height: 350px;
+    width: 400px;
+    background-color: azure;
+    position: relative;
+    box-shadow: -0.5px 1px 6px 11px black;
+}
+
+.card3>img {
+    position: absolute;
+    left: 50px;
+}
+
+.card3>h2 {
+    position: absolute;
+    top: 210px;
+    left: 160px;
+}
+
+.card3>p {
+    position: absolute;
+    top: 250px;
+    left: 4px;
+    /* text-align: justify; */
+    text-align: center;
+}
+
+
+
+
+
+

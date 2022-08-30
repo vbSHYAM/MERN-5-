@@ -1,0 +1,34 @@
+/* #D{
+height: 500px;
+width: 500px;
+border: 2px solid brown;
+background-color: aqua ;
+}
+
+#D img{
+    object-fit:cover;
+} */
+
+
+
+/* #P{
+height: 500px;
+width: 500px;
+border: 2px solid brown;
+background-color: aqua ;
+overflow:scroll;
+} */
+
+
+
+/* #P ul li::marker{
+color:red;
+} */
+
+
+#P{
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+    border-color: red;
+}

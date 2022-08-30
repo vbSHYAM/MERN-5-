@@ -1,0 +1,42 @@
+/* Descendant selector */
+/* section p{
+color: brown;
+}                            it will select all the child p tags inside section using 'SPACE' */
+
+/* div p{
+    background-color: aqua;
+} */
+
+
+
+/* child selector  [>]  */
+
+/* section>p{
+    font-size: 50px;
+} */
+
+/* div>p{
+    font-size: 99px;
+}                               it will accept only its child */
+
+
+/* Adjacent sibling selector */
+
+/* section+div{
+    text-shadow: 3px 3px red;
+/* }                               /* it wont execute as there are no immidiate siblings */  
+
+
+/* section+p{
+    text-shadow: 3px 3px crimson;
+} */
+
+
+
+/* General siblings selector */
+
+
+div~p{
+    text-align: center;
+    font-family: cursive;
+} 

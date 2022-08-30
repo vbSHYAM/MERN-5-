@@ -1,0 +1,51 @@
+
+/* universal selector */
+
+/* *{
+    color: royalblue;
+    background-color: aquamarine;
+} */
+
+
+/* element selector  */
+
+div{
+    font-size: 40px;
+    color: brown;                       /* this is on priority  */
+}
+
+
+/* class selector */
+
+.K{
+    text-shadow: 3px 4px chocolate;
+}
+
+.D{
+    text-shadow: 3px 4px crimson;
+}
+
+.K,.D{
+    background-color: darkgoldenrod;         /* if property are similar we can group the classes by using ',' */
+}
+
+
+/* id selector */
+
+#A{
+    color: darkgreen;
+    background-color: cyan;
+}
+
+#B{
+    color: darkblue;
+    font-size: xx-large;
+}
+
+
+
+/* In same tag if both id and class has same property, on priority 'id' property will be executed */
+
+.CC{
+    color: darkred !important;
+}

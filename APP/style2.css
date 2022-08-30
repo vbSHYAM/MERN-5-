@@ -1,0 +1,13 @@
+p{
+    font-size: 77px;
+    color: darkgoldenrod;
+}
+
+span{
+    color: darkgreen;
+    background-color: darksalmon;
+}
+
+h2 {
+    color: maroon !important;
+}

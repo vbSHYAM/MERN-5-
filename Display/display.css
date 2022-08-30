@@ -1,0 +1,36 @@
+:root{
+    --parent-bg-bg:aqua;
+    --children-bg:orange;
+}
+
+
+#inline_prop{
+    background-color: var(--parent-bg-bg);
+}
+
+#inline_prop>div{
+    display: inline-block;
+    /* display: inline; */
+}
+
+
+
+#disblock_prop{
+    background-color: var(--children-bg);
+}
+
+#disblock_prop>div{
+    display: block;
+}
+
+#none_prop{
+    background-color: chocolate;
+}
+
+#none_prop h1{
+    display: none;
+}
+
+#none_prop p{
+    visibility: hidden;
+}

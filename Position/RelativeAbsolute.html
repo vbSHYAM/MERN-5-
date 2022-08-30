@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RELATIVE & ABSOLUTE</title>
+  </head>
+
+  <style>
+    #D {
+      height: 500px;
+      width: 500px;
+      background-color: coral;
+    
+         margin-left: 300px;
+         position: relative;
+    }
+
+    #D p:first-child {
+      height: 150px;
+      width: 150px;
+      border: 2px solid black;
+      
+      position: absolute;
+     left: 220px;
+      
+    }
+
+     #D p:last-child {
+      height: 150px;
+      width: 150px;
+      border: 2px solid black;
+
+   
+     
+      
+    }
+
+
+  </style>
+
+  <body>
+    <div id="D">
+      <p>CHILD 1</p>
+
+      <p>CHILD 2</p>
+    </div>
+  </body>
+</html>

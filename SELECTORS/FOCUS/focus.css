@@ -1,0 +1,7 @@
+input:hover:focus{
+    background-color: coral;
+    color: darkred;
+   font-size: 30px;
+   font-family: cursive;
+border-radius: 20%;
+}

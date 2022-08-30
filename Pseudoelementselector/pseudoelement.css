@@ -1,0 +1,36 @@
+#PS p::first-letter{
+color: brown;
+font-size: xx-large;
+font-family: cursive;
+font-weight: bolder;
+}
+
+#PS p::first-line{
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#PS p::after{
+    content: "cool";
+    color: darkblue;
+    font-size: xx-large;
+}
+
+/* #PS p::before{
+    content: "ghost";
+} */
+
+#PS p::selection{
+    color: darkred;
+    background-color: indigo;
+}
+
+#PS ul li::marker{
+    color: darkred;
+    font-size: xx-large;
+}
+
+#PS button{
+    cursor: pointer;
+}
